@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d1e">
+  <meta name="description" content="Para Você: uma experiência digital demonstrativa criada pela KHT Digital. Conheça presentes personalizados que transformam lembranças em algo especial.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Para Você · Uma experiência KHT Digital">
+  <meta property="og:description" content="Algumas histórias merecem ser sentidas, não apenas contadas.">
+  <title>Para Você · KHT Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="load-screen" id="loadScreen" aria-hidden="true">
+    <span class="load-screen__star">✳</span>
+    <span class="load-screen__brand">KHT DIGITAL</span>
+    <span class="load-screen__line"><span></span></span>
+  </div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="site-glow" id="siteGlow" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="topo">
+    <div class="container site-header__inner">
+      <a href="#inicio" class="brand" aria-label="KHT Digital: voltar ao início">
+        <span class="brand__symbol" aria-hidden="true">K<span class="brand__spark">✦</span></span>
+        <span class="brand__words"><strong>KHT<span>Digital</span></strong><small>EXPERIÊNCIAS COM SIGNIFICADO</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNavigation" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navigation" id="mainNavigation" aria-label="Navegação principal">
+        <a href="#historia">A história</a>
+        <a href="#detalhes">Detalhes</a>
+        <a href="#carta">A carta</a>
+        <a href="#segredos">Segredos</a>
+        <a href="#personalizar" class="nav-cta">Experimente <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- 01 / ENTRADA -->
+    <section class="hero section" id="inicio" aria-labelledby="heroTitle">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__layout">
+        <div class="hero__content" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__dot"></span> UM PRESENTE DIGITAL, UMA HISTÓRIA SÓ SUA</p>
+          <div class="hero__small-line"><span>DE UM JEITO DIFERENTE</span><span>✦</span><span>2026</span></div>
+          <h1 id="heroTitle">Para <em>você.</em><span class="hero__title-dot">✦</span></h1>
+          <p class="hero__tagline">Algumas histórias merecem ser <span>sentidas,</span> não apenas contadas.</p>
+          <p class="hero__description">Existe beleza nas coisas simples. Nos gestos inesperados. Nos detalhes que alguém escolheu guardar. Esta experiência é sobre isso.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#introducao">Começar a experiência <span aria-hidden="true">↗</span></a>
+            <a class="button button--text" href="#sobre-projeto">Sobre este projeto <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero__foot"><span class="hero__line"></span><span>ROLE E DESCUBRA</span><span class="hero__arrow">↓</span></div>
+        </div>
+        <div class="hero-art" aria-label="Ilustração abstrata de um presente luminoso" role="img" data-reveal>
+          <div class="hero-art__orbit hero-art__orbit--one"></div>
+          <div class="hero-art__orbit hero-art__orbit--two"></div>
+          <div class="hero-art__glow"></div>
+          <div class="hero-art__flower">
+            <span class="hero-art__petal p1"></span><span class="hero-art__petal p2"></span><span class="hero-art__petal p3"></span><span class="hero-art__petal p4"></span><span class="hero-art__petal p5"></span><span class="hero-art__petal p6"></span>
+            <span class="hero-art__core">✦</span>
+          </div>
+          <span class="hero-art__spark hero-art__spark--one">✳</span>
+          <span class="hero-art__spark hero-art__spark--two">✦</span>
+          <span class="hero-art__spark hero-art__spark--three">✧</span>
+          <div class="hero-art__note"><span>UMA PEQUENA LEMBRANÇA</span><strong>feita para durar.</strong></div>
+          <span class="hero-art__coordinate">01 / ∞</span>
+        </div>
+      </div>
+      <div class="hero__bottom"><span>UMA EXPERIÊNCIA KHT DIGITAL</span><span>FEITA COM INTENÇÃO ✳</span></div>
+    </section>
+
+    <!-- INTRODUÇÃO -->
+    <section class="section intro" id="introducao" aria-labelledby="introTitle">
+      <div class="container intro__inner" data-reveal>
+        <span class="section-number">01 — A ESSÊNCIA</span>
+        <span class="intro__icon" aria-hidden="true">✳</span>
+        <h2 class="display-title" id="introTitle">Nem tudo o que importa <em>cabe em uma caixa.</em></h2>
+        <p>Às vezes, um presente não é algo que podemos segurar nas mãos. É uma mensagem na hora certa, uma história lembrada com carinho ou uma surpresa que ninguém esperava.</p>
+        <p class="intro__highlight">Este pequeno universo foi criado para mostrar como os detalhes podem se transformar em uma experiência.</p>
+        <a href="#historia" class="text-link">Descubra a história <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- HISTÓRIA -->
+    <section class="section story" id="historia" aria-labelledby="storyTitle">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><span class="section-number">02 — CAPÍTULOS</span><h2 class="display-title" id="storyTitle">Toda história é feita de <em>pequenos começos.</em></h2></div>
+          <p>Quatro capítulos fictícios para mostrar como uma surpresa digital pode contar uma história do primeiro momento até aquilo que ainda está por vir.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true"></div>
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-item__index">CAP. 01</span>
+            <div class="timeline-item__marker" aria-hidden="true">✦</div>
+            <div class="timeline-item__body"><span class="timeline-item__overline">O PONTO DE PARTIDA</span><h3>O começo de tudo</h3><p>Algumas histórias começam sem aviso. Um detalhe, uma conversa, um encontro com algo novo. De repente, existe uma lembrança que vale a pena guardar.</p><span class="timeline-item__tag">todo começo importa ↗</span></div>
+          </article>
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-item__index">CAP. 02</span>
+            <div class="timeline-item__marker" aria-hidden="true">✧</div>
+            <div class="timeline-item__body"><span class="timeline-item__overline">O QUE FICA</span><h3>Os pequenos detalhes</h3><p>Nem sempre são os grandes acontecimentos. Às vezes, são as pequenas atitudes que fazem um dia comum virar uma história boa de contar.</p><span class="timeline-item__tag">o extraordinário mora no simples ↗</span></div>
+          </article>
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-item__index">CAP. 03</span>
+            <div class="timeline-item__marker" aria-hidden="true">✳</div>
+            <div class="timeline-item__body"><span class="timeline-item__overline">O QUE GUARDAMOS</span><h3>As lembranças</h3><p>Alguns instantes passam depressa, mas continuam presentes: em uma palavra, um lugar, um sorriso ou uma sensação difícil de explicar.</p><span class="timeline-item__tag">lembrar também é um presente ↗</span></div>
+          </article>
+          <article class="timeline-item" data-reveal>
+            <span class="timeline-item__index">CAP. 04</span>
+            <div class="timeline-item__marker" aria-hidden="true">✦</div>
+            <div class="timeline-item__body"><span class="timeline-item__overline">A PRÓXIMA PÁGINA</span><h3>O que ainda vem</h3><p>As melhores histórias não precisam estar prontas. Há beleza também nas possibilidades, nos planos e nas páginas que ainda serão escritas.</p><span class="timeline-item__tag">a história continua ↗</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVISÓRIA -->
+    <div class="quote-band" aria-label="Frase especial"><div class="quote-band__track" aria-hidden="true">FEITO DE DETALHES ✦ FEITO DE HISTÓRIAS ✦ FEITO PARA VOCÊ ✦ FEITO DE DETALHES ✦ FEITO DE HISTÓRIAS ✦ FEITO PARA VOCÊ ✦</div></div>
+
+    <!-- DETALHES -->
+    <section class="section details" id="detalhes" aria-labelledby="detailsTitle">
+      <div class="container">
+        <div class="section-heading section-heading--stacked" data-reveal>
+          <span class="section-number">03 — ENTRE LINHAS</span>
+          <h2 class="display-title" id="detailsTitle">A magia mora <em>nos detalhes.</em></h2>
+          <p>Toque em cada cartão. Existe uma mensagem diferente esperando por você.</p>
+        </div>
+        <div class="details-grid">
+          <button class="detail-card" type="button" data-detail aria-expanded="false" data-reveal>
+            <span class="detail-card__number">01 / 04</span><span class="detail-card__symbol" aria-hidden="true">☼</span>
+            <span class="detail-card__front"><strong>Pequenos momentos</strong><span>Toque para revelar <span aria-hidden="true">↗</span></span></span>
+            <span class="detail-card__back" hidden>Um instante simples pode se tornar uma lembrança imensa. Às vezes, basta estar presente.</span>
+          </button>
+          <button class="detail-card detail-card--purple" type="button" data-detail aria-expanded="false" data-reveal>
+            <span class="detail-card__number">02 / 04</span><span class="detail-card__symbol" aria-hidden="true">✉</span>
+            <span class="detail-card__front"><strong>Palavras especiais</strong><span>Toque para revelar <span aria-hidden="true">↗</span></span></span>
+            <span class="detail-card__back" hidden>Existem palavras que chegam na hora certa e permanecem na memória por muito tempo.</span>
+          </button>
+          <button class="detail-card detail-card--blue" type="button" data-detail aria-expanded="false" data-reveal>
+            <span class="detail-card__number">03 / 04</span><span class="detail-card__symbol" aria-hidden="true">✧</span>
+            <span class="detail-card__front"><strong>Lembranças</strong><span>Toque para revelar <span aria-hidden="true">↗</span></span></span>
+            <span class="detail-card__back" hidden>Nem tudo precisa de uma fotografia para ser lembrado. Algumas coisas a gente simplesmente sente.</span>
+          </button>
+          <button class="detail-card detail-card--pink" type="button" data-detail aria-expanded="false" data-reveal>
+            <span class="detail-card__number">04 / 04</span><span class="detail-card__symbol" aria-hidden="true">♡</span>
+            <span class="detail-card__front"><strong>Surpresas</strong><span>Toque para revelar <span aria-hidden="true">↗</span></span></span>
+            <span class="detail-card__back" hidden>O que torna uma surpresa especial não é o tamanho. É o cuidado colocado em cada detalhe.</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMÓRIAS -->
+    <section class="section memories" id="memorias" aria-labelledby="memoriesTitle">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><span class="section-number">04 — PEQUENOS TESOUROS</span><h2 class="display-title" id="memoriesTitle">Uma caixa de <em>memórias.</em></h2></div>
+          <p>Três lembretes de que histórias especiais podem ser contadas sem depender de fotos. Toque para ler.</p>
+        </div>
+        <div class="memory-grid">
+          <button type="button" class="memory-card" data-memory="0" data-reveal aria-label="Abrir memória: o primeiro momento"><span class="memory-card__top">MEMÓRIA N° 001 <span>↗</span></span><span class="memory-card__illustration memory-card__illustration--one" aria-hidden="true">✳</span><span class="memory-card__bottom"><strong>O primeiro momento</strong><small>O início de uma lembrança.</small></span></button>
+          <button type="button" class="memory-card memory-card--tilt" data-memory="1" data-reveal aria-label="Abrir memória: um sorriso"><span class="memory-card__top">MEMÓRIA N° 002 <span>↗</span></span><span class="memory-card__illustration memory-card__illustration--two" aria-hidden="true">☺</span><span class="memory-card__bottom"><strong>Um sorriso inesperado</strong><small>Pequenos gestos, grandes sentidos.</small></span></button>
+          <button type="button" class="memory-card" data-memory="2" data-reveal aria-label="Abrir memória: um desejo"><span class="memory-card__top">MEMÓRIA N° 003 <span>↗</span></span><span class="memory-card__illustration memory-card__illustration--three" aria-hidden="true">☾</span><span class="memory-card__bottom"><strong>Um desejo para o futuro</strong><small>As próximas páginas aguardam.</small></span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTA -->
+    <section class="section letter-section" id="carta" aria-labelledby="letterTitle">
+      <div class="container letter-layout">
+        <div class="letter-copy" data-reveal>
+          <span class="section-number">05 — ESCRITO COM CARINHO</span>
+          <h2 class="display-title" id="letterTitle">Algumas palavras merecem <em>seu próprio lugar.</em></h2>
+          <p>Tem uma carta esperando para ser aberta. Porque nem tudo precisa ser dito de uma vez — algumas coisas merecem um instante só para elas.</p>
+          <span class="letter-copy__foot">UM PEQUENO GESTO. UMA GRANDE LEMBRANÇA.</span>
+        </div>
+        <div class="letter-scene" id="letterScene" data-reveal>
+          <div class="envelope-stage" aria-hidden="true"><div class="envelope"><div class="envelope__back"></div><div class="envelope__paper"><span>um recado especial</span><i>✦</i></div><div class="envelope__flap"></div><div class="envelope__front"></div><div class="envelope__seal">✳</div></div></div>
+          <button type="button" class="button button--primary" id="letterToggle" aria-expanded="false" aria-controls="letterContent">Abrir minha carta <span aria-hidden="true">↗</span></button>
+          <div class="letter-content" id="letterContent" hidden>
+            <span class="letter-content__heading">Para alguém especial,</span>
+            <p>Existem momentos que nos fazem perceber como as coisas mais simples podem ter um significado enorme.</p>
+            <p>Uma conversa, uma lembrança, um gesto de carinho ou a presença de alguém podem transformar um dia comum em algo que vale a pena guardar.</p>
+            <p>Este presente foi pensado para lembrar que cada palavra, cada detalhe e cada surpresa têm seu valor. Não pela grandiosidade, mas pela intenção de quem criou.</p>
+            <p>Que essa experiência seja um motivo para sorrir — hoje e sempre que você decidir voltar aqui.</p>
+            <span class="letter-content__signature">Com carinho, de alguém que quis criar algo diferente. ♡</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEGREDOS -->
+    <section class="section secrets" id="segredos" aria-labelledby="secretsTitle">
+      <div class="container secrets__inner" data-reveal>
+        <span class="section-number">06 — UM POUCO DE MISTÉRIO</span>
+        <h2 class="display-title" id="secretsTitle">Há coisas bonitas <em>escondidas por aqui.</em></h2>
+        <p>Nem tudo aparece logo de primeira. Toque nas estrelas para descobrir as três mensagens secretas.</p>
+        <div class="secret-list" aria-label="Três mensagens secretas">
+          <button type="button" class="secret-button" data-secret="0" aria-label="Descobrir segredo um" aria-pressed="false">✦<small>01</small></button>
+          <button type="button" class="secret-button" data-secret="1" aria-label="Descobrir segredo dois" aria-pressed="false">✳<small>02</small></button>
+          <button type="button" class="secret-button" data-secret="2" aria-label="Descobrir segredo três" aria-pressed="false">✧<small>03</small></button>
+        </div>
+        <div class="secret-message" id="secretMessage" role="status" aria-live="polite">Escolha uma estrela para revelar o primeiro segredo.</div>
+        <span class="secret-counter" id="secretCounter">0 de 3 segredos encontrados</span>
+      </div>
+    </section>
+
+    <!-- FRASES -->
+    <section class="section moment" id="momentos" aria-labelledby="momentTitle">
+      <div class="container moment__inner" data-reveal>
+        <span class="section-number">07 — UMA PEQUENA PAUSA</span>
+        <span class="moment__asterisk" aria-hidden="true">✳</span>
+        <h2 class="display-title" id="momentTitle">Não são apenas momentos. <em>São histórias que ficam.</em></h2>
+        <div class="moment-quote" id="momentQuote" aria-live="polite">“O extraordinário pode morar nas coisas mais simples.”</div>
+        <div class="moment-controls"><button type="button" id="quotePrev" class="circle-button" aria-label="Frase anterior">←</button><span id="quotePosition">01 / 03</span><button type="button" id="quoteNext" class="circle-button" aria-label="Próxima frase">→</button></div>
+      </div>
+    </section>
+
+    <!-- MINI PERSONALIZAÇÃO -->
+    <section class="section personalize" id="personalizar" aria-labelledby="personalizeTitle">
+      <div class="container personalize__layout">
+        <div data-reveal><span class="section-number">08 — IMAGINE A SUA VERSÃO</span><h2 class="display-title" id="personalizeTitle">E se esse presente tivesse <em>um nome especial?</em></h2><p>Experimente escrever um nome ou apelido. Veja como um pequeno detalhe já transforma a experiência. Esta demonstração não envia nem armazena o que você digitar.</p><form class="name-form" id="nameForm"><label for="recipientName">NOME OU APELIDO</label><div class="name-form__row"><input id="recipientName" name="recipientName" maxlength="26" type="text" autocomplete="off" placeholder="Ex.: alguém especial" aria-describedby="nameHint"><button class="button button--primary" type="submit">Personalizar <span aria-hidden="true">↗</span></button></div><small id="nameHint">Até 26 caracteres. Só para pré-visualizar nesta página.</small></form></div>
+        <div class="personalize-preview" data-reveal><span>UM PRESENTE ESPECIAL PARA</span><strong id="recipientPreview">alguém especial</strong><span class="personalize-preview__flower" aria-hidden="true">✳</span><p>Com carinho, em cada detalhe.</p><span class="personalize-preview__brand">KHT DIGITAL · DEMONSTRAÇÃO</span></div>
+      </div>
+    </section>
+
+    <!-- ENCERRAMENTO -->
+    <section class="section finale" id="final" aria-labelledby="finalTitle">
+      <div class="container finale__inner" data-reveal>
+        <span class="section-number">09 — O FIM DESTA PÁGINA. NÃO DA HISTÓRIA.</span>
+        <span class="finale__symbol" aria-hidden="true">✦</span>
+        <h2 class="display-title" id="finalTitle">E se isso for só <em>o começo?</em></h2>
+        <p>Histórias especiais continuam mesmo depois da última página. Que os próximos capítulos tragam mais descobertas, momentos e motivos para sorrir.</p>
+        <a href="#inicio" class="button button--outline">Recomeçar a experiência <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+
+    <!-- SOBRE / CTA KHT -->
+    <section class="section brand-cta" id="sobre-projeto" aria-labelledby="ctaTitle">
+      <div class="container">
+        <div class="brand-cta__panel" data-reveal>
+          <div class="brand-cta__eyebrow"><span>✳</span> ESTA FOI UMA EXPERIÊNCIA DEMONSTRATIVA</div>
+          <h2 id="ctaTitle">Agora imagine uma surpresa <em>com a sua história.</em></h2>
+          <p>Na KHT Digital, a proposta é transformar ideias em experiências personalizadas. Com suas mensagens, suas cores e os detalhes que tornam o momento único.</p>
+          <div class="brand-cta__actions"><a class="button button--light" href="https://www.instagram.com/khtdigital/" target="_blank" rel="noopener noreferrer">Conversar pelo Instagram <span aria-hidden="true">↗</span></a><button type="button" class="button button--glass" id="shareButton">Compartilhar esta demo <span aria-hidden="true">↗</span></button></div>
+          <span class="brand-cta__disclaimer">Projeto de portfólio • Textos e histórias fictícios • Não é um pedido real de cliente</span>
+          <span class="brand-cta__corner" aria-hidden="true">✦</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer__inner"><a class="footer__brand" href="#inicio">KHT <span>Digital.</span></a><span>Ideias viram experiências.</span><span>© <span id="currentYear">2026</span> KHT DIGITAL</span></div></footer>
+
+  <dialog class="memory-dialog" id="memoryDialog" aria-labelledby="memoryDialogTitle"><div class="memory-dialog__inner"><button type="button" id="closeMemory" class="memory-dialog__close" aria-label="Fechar memória">✕</button><span class="section-number">UMA LEMBRANÇA GUARDADA</span><span class="memory-dialog__symbol" id="memoryDialogSymbol" aria-hidden="true">✳</span><h2 id="memoryDialogTitle"></h2><p id="memoryDialogText"></p><span class="memory-dialog__foot">PARA VOCÊ · KHT DIGITAL</span></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
